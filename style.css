@@ -15,7 +15,7 @@ p {
 	margin: .5em 0;
 }
 
-#switcher {
+.switcher {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -24,7 +24,7 @@ p {
 	align-items: center;
 }
 
-#switcher li {
+.switcher li {
 	width: 2rem;
 	line-height: 2rem;
 	border: 1px dotted;
@@ -32,8 +32,12 @@ p {
 	cursor: pointer;
 }
 
-#switcher li:hover {
+.switcher li:hover {
 	background: tomato;
+}
+
+#color li:hover {
+	background: rgba(212, 212, 212, 0.603);
 }
 
 .smaller {
@@ -44,3 +48,14 @@ p {
 	font-size: larger;
 }
 
+.red{
+	background: red;
+}
+
+.blue{
+	background: blue;
+}
+
+.green{
+	background: green;
+}

@@ -6,14 +6,21 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<ul id="switcher">
-			<li class="smaller">A-</li>
-			<li class="normal">A</li>
-			<li class="bigger">A+</li>
+		<ul class="switcher">
+			<li class="smaller" onclick="defineClassName(this)">A-</li>
+			<li class="normal" onclick="defineClassName(this)">A</li>
+			<li class="bigger" onclick="defineClassName(this)">A+</li>
+		</ul>
+
+		<ul class="switcher" id="color">
+			<li class="red" onclick="defineClassName(this)">R</li>
+			<li class="green" onclick="defineClassName(this)">G</li>
+			<li class="blue" onclick="defineClassName(this)">B</li>
 		</ul>
 
 		<h1>Page Styler</h1>
 
 		<p>Click the buttons above to change the page styles!</p>
+		<script src="script.js"></script>
 	</body>
 </html>
